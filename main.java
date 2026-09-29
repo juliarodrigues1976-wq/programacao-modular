@@ -29,9 +29,9 @@ private static void exibirMenu(){
 }
 
 private static void criaVeterinarios(){
-    Veterinario v1 = new Veterinario();
-    Veterinario v2 = new Veterinario();
-    Veterinario v3 = new Veterinario();
+    Veterinario v1 = new Veterinario("Joao", "109809206457", "generalista", "31999999999");
+    Veterinario v2 = new Veterinario("Ana", "109809206557", "generalista", "31999979999");
+    Veterinario v3 = new Veterinario("Paulo", "109809206357", "generalista", "31999998999");
 }
 
 private static void criaSalas(){
