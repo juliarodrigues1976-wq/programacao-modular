@@ -10,7 +10,7 @@ public class Sala {
     private Veterinario veterinario;
     private ArrayList<Atendimento> atendimentos;
 
-    private Sala(String numero, String bloco, int capacidadeMax, String tipo, Veterinario veterinario, ArrayList<Atendimento> atendimentos) {
+    public Sala(String numero, String bloco, int capacidadeMax, String tipo, Veterinario veterinario, ArrayList<Atendimento> atendimentos) {
         this.numero = numero;
         this.bloco = bloco;
         this.capacidadeMax = capacidadeMax;

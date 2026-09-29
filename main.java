@@ -1,10 +1,16 @@
+import java.util.ArrayList;
 import java.util.Scanner;
+
+import clinica_veterinaria.src.model.Sala;
+import clinica_veterinaria.src.model.Veterinario;
 
 public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
     exibirMenu();
     definirAcaoMenu(teclado.nextInt());
+    criaVeterinarios();
+    criaSalas();
 
 
     teclado.close();
@@ -20,6 +26,16 @@ private static void exibirMenu(){
         "6. Buscar atendimentos por status.\r\n" +
         "7. Exibir os detalhes completos de um atendimento específico."
     );
+}
+
+private static void criaVeterinarios(){
+    Veterinario v1 = new Veterinario();
+    Veterinario v2 = new Veterinario();
+    Veterinario v3 = new Veterinario();
+}
+
+private static void criaSalas(){
+
 }
 
 public static void definirAcaoMenu(int valor) {

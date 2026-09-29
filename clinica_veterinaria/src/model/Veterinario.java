@@ -6,7 +6,7 @@ public class Veterinario {
     private String especialidade;
     private String telefone;
 
-    private Veterinario(String nome, String cpf, String especialidade, String telefone) {
+    public Veterinario(String nome, String cpf, String especialidade, String telefone) {
         this.nome = nome;
         this.cpf = cpf;
         this.especialidade = especialidade;
